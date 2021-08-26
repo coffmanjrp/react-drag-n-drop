@@ -3,7 +3,13 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <div className="empty">
+        <div className="fill" draggable="true"></div>
+      </div>
+      <div className="empty"></div>
+      <div className="empty"></div>
+      <div className="empty"></div>
+      <div className="empty"></div>
     </div>
   );
 }
